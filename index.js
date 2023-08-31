@@ -8,10 +8,10 @@ app.use(cors());
 app.use(express.json());
 
 const db = mysql.createConnection({
-    user: 'root',
+    user: 'cmdkppco_tree',
     host: 'localhost',
-    password: '',
-    database: 'casava_varities'
+    password: ':2Y08;r0VxVskS',
+    database: 'cmdkppco_tree'
 })
 
 app.post('/api/add', (req,res) => {
